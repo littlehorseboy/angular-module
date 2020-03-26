@@ -5,9 +5,14 @@ import { CustomerDashboardComponent } from './customer-dashboard/customer-dashbo
 
 
 @NgModule({
-  declarations: [CustomerDashboardComponent],
+  declarations: [
+    CustomerDashboardComponent,
+  ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [
+    CustomerDashboardComponent,
+  ],
 })
 export class CustomerDashboardModule { }
